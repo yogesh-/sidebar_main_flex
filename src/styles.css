@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+}
+
+#container {
+  background: grey;
+  display: flex;
+  height: 250px;
+  border-radius: 10px;
+  gap: 10px;
+  margin: 0 20px;
+}
+
+.sidebar {
+  background: aqua;
+}
+
+.main_content {
+  background: aquamarine;
+  flex-grow: 1;
+}
